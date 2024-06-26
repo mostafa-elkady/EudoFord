@@ -5,6 +5,7 @@ This is a university website built using HTML, CSS, and JavaScript. The website 
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
+- [Live_Demo](#Live_Demo)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -26,7 +27,9 @@ To run the university website locally, follow these steps:
 
 1. Clone the repository to your local machine:
 https://github.com/mostafa-elkady/EudoFord.git
-
+## Live_Demo
+GitHub Pages 
+ https://mostafa-elkady.github.io/EudoFord/
 ## Usage
 
 The university website is designed to provide users with comprehensive information about the university, its courses, and activities. Visitors can navigate through the different sections of the website to explore the available offerings and learn more about the institution.
