@@ -25,3 +25,21 @@ The university website includes the following features:
 To run the university website locally, follow these steps:
 
 1. Clone the repository to your local machine:
+https://github.com/mostafa-elkady/EudoFord.git
+
+## Usage
+
+The university website is designed to provide users with comprehensive information about the university, its courses, and activities. Visitors can navigate through the different sections of the website to explore the available offerings and learn more about the institution.
+
+## Contributing
+
+If you would like to contribute to the development of the university website, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and test them thoroughly.
+4. Submit a pull request with a detailed description of your changes.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
