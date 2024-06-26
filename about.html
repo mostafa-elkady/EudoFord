@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduford</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/icons.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!---------------- Start Header-->
+    <section class="sub-header header ">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <div class="icon-cross" onclick="hideMenu()"></div>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="icon-menu" onclick="showMenu()"></div>
+      </nav>
+      <h1>ABOUT US</h1>
+    </section>
+    <!--------------- End Header-->
+    <!-- --------Start About --------- -->
+
+    <section class="about">
+      <div class="row">
+        <div class="about-col">
+          <h2>We Are The World's Largest University</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repudiandae ipsum quas labore in esse quam. Hic dolor eum ea optio
+            reprehenderit perspiciatis itaque, voluptate officiis voluptatibus
+            architecto illum laborum doloribus!
+           
+          </p>
+          <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col"><img src="images/about.jpg" /></div>
+      </div>
+    </section>
+
+    <!-- --------End About --------- -->
+    <!-- --------Start Footer --------- -->
+    <section class="footer">
+      <h3>About Us</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil,
+        accusamus placeatprovident harum odit sapiente voluptatibus
+        doloremque .
+      </p>
+      
+      <div class="social-icon">
+        <div class="icon-facebook icon"></div>
+        <div class="icon-twitter icon"></div>
+        <div class="icon-instagram icon"></div>
+        <div class="icon-linkedin2 icon"></div>
+      </div>
+      <span
+        >We Made This Website with Love
+        <span class="icon-heart-outline icon"></span
+      ></span>
+    </section>
+    <!-- --------End Footer --------- -->
+    <!--Javascript -->
+    <script>
+      let navLInks = document.getElementById("navLinks");
+      function showMenu() {
+        navLInks.style.right = "0";
+      }
+      function hideMenu() {
+        navLInks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
